@@ -12,6 +12,10 @@ import Style2 from "./components/03-style/style2";
 import Style3 from "./components/03-style/style3";
 import Style4 from "./components/03-style/style4";
 import Style5 from "./components/03-style/style5";
+import Clock1 from "./components/04-clock1/clock1";
+import Greetings from "./components/05-props/greetings";
+import Products from "./components/05-props/products";
+import Clock2 from "./components/06-clock2/clock2";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -26,10 +30,16 @@ const App = () => {
     <Style1 /> 
     <Style2/>
     <Style3/>
-    <Style4/>*/}
-    
+    <Style4/>
     <Style5/>
+    <Clock1/>
+    <Greetings/>
+    <Products/>
+    */}
     
+    
+    <Clock2 textColor="orange" bgColor="aqua" />
+    <Clock2 textColor="yellow" bgColor="red" hideTime={true}/>
     
     
   </div>
