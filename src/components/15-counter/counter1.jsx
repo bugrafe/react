@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, ButtonGroup, Container } from "react-bootstrap";
 import { TfiPlus, TfiMinus, TfiReload } from "react-icons/tfi"
-const Counter = () => {
+const Counter1 = () => {
     const [counter, setCounter] =useState(0)
     return (
         <Container className="mt-4">
@@ -14,4 +14,4 @@ const Counter = () => {
         </Container>
     );
 };
-export default Counter;
+export default Counter1;

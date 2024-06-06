@@ -26,7 +26,10 @@ import Event2 from "./components/12-events/event2";
 import Shop from "./components/13-shop";
 import Stateless from "./components/14-state/stateless";
 import State from "./components/14-state/state";
-import Counter from "./components/15-counter/counter";
+import Counter1 from "./components/15-counter/counter1";
+import Counter2 from "./components/15-counter/counter2";
+import UserList from "./components/16-birthday/user-list";
+import UseEffect1 from "./components/17-useeffect/useeffect1";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -58,10 +61,13 @@ const App = () => {
     <Shop/>
     <Stateless/>
     <State/>
+    <Counter1/>
+    <Counter2/>
+    <UserList/>
     */}
     
-    <Counter/>
-      
+
+    <UseEffect1/>
     
     
     
