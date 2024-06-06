@@ -18,11 +18,11 @@ const UseEffect1 = () => {
     },[])
 
     useEffect(()=>{
-        console.log("UPDATE: Buradaki kodlar render ve re-render da çalısır")
+        console.log("UPDATING: Buradaki kodlar render ve re-render da çalısır")
     })
 
     useEffect(()=>{
-        console.log("UPDATE: Buradaki kodlar dependency array icindeki degisken(ler) degistiğinde çalısır")
+        console.log("UPDATE-DA: Buradaki kodlar dependency array icindeki degisken(ler) degistiğinde çalısır")
     },[error])
 
 

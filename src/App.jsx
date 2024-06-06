@@ -30,6 +30,11 @@ import Counter1 from "./components/15-counter/counter1";
 import Counter2 from "./components/15-counter/counter2";
 import UserList from "./components/16-birthday/user-list";
 import UseEffect1 from "./components/17-useeffect/useeffect1";
+import Clock3 from "./components/18-clock3/clock3";
+import UseEffect3 from "./components/17-useeffect/useeffect3";
+import CountryFilter from "./components/19-country-filter/country-filter";
+import Useref from "./components/20-useref/useref";
+import ClassComp from "./components/21-class-type-comp/class-comp";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -53,7 +58,7 @@ const App = () => {
     <Clock2 textColor="yellow" bgColor="red" hideTime={true}/>
     <Image />
     <Gallery /> 
-     <ProfileCard avatar="/img/profile.jpg" name="Susan Ceylan" location="Brussels,Belgium" shot="14" followers="121" following="25" />  
+    <ProfileCard avatar="/img/profile.jpg" name="Susan Ceylan" location="Brussels,Belgium" shot="14" followers="121" following="25" />  
     <ReactBootstrap/>
     <Icons/>
     <Event1/>
@@ -64,10 +69,17 @@ const App = () => {
     <Counter1/>
     <Counter2/>
     <UserList/>
+    <UseEffect1/>
+    <Clock3/> 
+    <UseEffect3/>
+    <CountryFilter/>
+    <Useref/>
+
+
     */}
     
 
-    <UseEffect1/>
+    <ClassComp/>
     
     
     
