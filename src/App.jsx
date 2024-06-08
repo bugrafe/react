@@ -35,6 +35,9 @@ import UseEffect3 from "./components/17-useeffect/useeffect3";
 import CountryFilter from "./components/19-country-filter/country-filter";
 import Useref from "./components/20-useref/useref";
 import ClassComp from "./components/21-class-type-comp/class-comp";
+import ProductStore from "./components/22-products.jsx/product-store";
+import ProductStore1 from "./components/22-products.jsx/product-store-1";
+import Recipes from "./components/23-recipes/recipes";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -74,14 +77,15 @@ const App = () => {
     <UseEffect3/>
     <CountryFilter/>
     <Useref/>
-
-
+    <ClassComp/>
+    <ProductStore/>
+    <ProductStore1/>
     */}
     
 
-    <ClassComp/>
-    
-    
+    <Recipes/>
+
+
     
     
   </div>
