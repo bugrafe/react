@@ -38,6 +38,11 @@ import ClassComp from "./components/21-class-type-comp/class-comp";
 import ProductStore from "./components/22-products.jsx/product-store";
 import ProductStore1 from "./components/22-products.jsx/product-store-1";
 import Recipes from "./components/23-recipes/recipes";
+import Form1 from "./components/24-forms/form1";
+import Form2 from "./components/24-forms/form2";
+import Form3 from "./components/24-forms/form3";
+import Form4 from "./components/24-forms/form4";
+import Form5 from "./components/24-forms/form5";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -80,13 +85,16 @@ const App = () => {
     <ClassComp/>
     <ProductStore/>
     <ProductStore1/>
-    */}
-    
-
     <Recipes/>
+    <Form1/>
+    <Form2/>
+    <Form3/>
+    <Form4/>
+    */}
 
 
-    
+    <Form5/>
+
     
   </div>
 };
