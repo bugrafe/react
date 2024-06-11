@@ -43,6 +43,8 @@ import Form2 from "./components/24-forms/form2";
 import Form3 from "./components/24-forms/form3";
 import Form4 from "./components/24-forms/form4";
 import Form5 from "./components/24-forms/form5";
+import Form6 from "./components/24-forms/form6";
+import NewProductForm from "./components/25-product-manager/new-product-form";
 const App = () => {
   return <div>
    {/*  <HelloReact />
@@ -90,10 +92,15 @@ const App = () => {
     <Form2/>
     <Form3/>
     <Form4/>
+    <Form5/>
+    <Form6/>
+
+
     */}
 
+    <NewProductForm/>
 
-    <Form5/>
+
 
     
   </div>
