@@ -1,4 +1,4 @@
-const API_URL="https://664e406dfafad45dfadf8a3d.mockapi.io/api/v1/:endpoint";
+const API_URL="https://664e406dfafad45dfadf8a3d.mockapi.io/api/v1";
 
 const getAllProducts=async ()=>{
     const res = await fetch(`${API_URL}/products`);
@@ -7,7 +7,7 @@ const getAllProducts=async ()=>{
     return data;
 }
 
-const getProducts=async ()=>{
+const getProducts=async (id)=>{
     const res = await fetch(`${API_URL}/products/${id}`);
     if(!res.ok) throw new Error("Something went wrong");
     const data = await res.json();
@@ -27,22 +27,22 @@ const createProduct = async (product) => {
     return data;
 };
 
-const updateProduct = async (id,product) => {
-    const res = await fetch(`${API_URL}/products/${id}`, {
-        method: "put",
-        body: JSON.stringify(product),
-        headers: {
-            "Content-Type": "application/json",
-        },
-    });
-    if (!res.ok) throw new Error("Something went wrong");
-    const data = await res.json();
-    return data;
+const updateProduct = async (id, product) => {
+	const res = await fetch(`${API_URL}/products/${id}`, {
+		method: "put",
+		body: JSON.stringify(product),
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
+	if (!res.ok) throw new Error("Something went wrong");
+	const data = await res.json();
+	return data;
 };
 
 const deleteProduct = async (id) => {
     const res = await fetch(`${API_URL}/products/${id}`, {
-        method: "put",
+        method: "delete",
     });
     if (!res.ok) throw new Error("Something went wrong");
     const data = await res.json();
