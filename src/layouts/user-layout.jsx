@@ -1,14 +1,16 @@
 import React from 'react'
-import Header from '../components/13-shop/header'
-import { Container, Row } from 'react-bootstrap'
-import Footer from '../components/13-shop/footer'
-import MainMenu from '../components/00-home/main-menu'
+import { Col, Container, Row } from 'react-bootstrap'
+import MainMenu from '../components/00-common/main-menu.jsx'
+import Footer from "../components/00-common/footer.jsx";
+import Header from "../components/00-common/header.jsx";
+import { Outlet } from 'react-router-dom';
 
 const UserLayout = () => {
   return (
     <>
+        <div style={{height:"100vh"}} className='d-flex flex-column'>
         <Header/>
-        <Container>
+        <Container className='my-4 flex-grow-1 p-4'>
             <Row>
                 <Col md={4} lg={3}>
                     <MainMenu/>
@@ -19,7 +21,7 @@ const UserLayout = () => {
             </Row>
         </Container>
         <Footer/>
-
+        </div>
             
         
 
