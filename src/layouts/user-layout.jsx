@@ -11,7 +11,7 @@ const UserLayout = () => {
         <div style={{height:"100vh"}} className='d-flex flex-column'>
         <Header/>
         <Container className='my-4 flex-grow-1 p-4'>
-            <Row>
+            <Row className='g-5'>
                 <Col md={4} lg={3}>
                     <MainMenu/>
                 </Col>

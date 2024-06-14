@@ -19,6 +19,7 @@ const MainMenu = () => {
                     <Nav.Link to="/clock1" as={Link} disabled={pathname === "/clock1"}>Clock1</Nav.Link>
                     <Nav.Link to="/customers" as={Link} disabled={pathname === "/customers"}>Customers</Nav.Link>
                     <Nav.Link to="/navigate" as={Link} disabled={pathname === "/navigate"}>Usenavigate</Nav.Link>
+                    <Nav.Link to="/currency-converter" as={Link} disabled={pathname === "/currency-converter"}>Currency Converter</Nav.Link>
                 </Nav>
             </Card.Body>
         </Card>
